@@ -1,6 +1,8 @@
 # transmission-line
 Design and draw transmission lines in GDSII format using gdspy.
 
+**This fork is meant to be frozen as it existed in January 2022 to ensure that it remains compatible with existing code that uses it. Please do not sync it with the original repo at `danielflanigan/transmission-line`. If you want to use updated code, clone the original repo instead.**
+
 ## What is it useful for?
 This package was developed to draw GDSII design files to fabricate coplanar waveguide (CPW) superconducting resonators using optical lithography.
 If the phase velocity of the transmission line is known, either from measurement or simulation, this allows the resonance frequencies to be set precisely by setting the correct length. 
